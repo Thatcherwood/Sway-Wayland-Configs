@@ -14,7 +14,7 @@ Includes configurations for:
 
 Additional Packages:  
 - Noto-Fonts -- Font  
-- Noto-Fonts-Emoki -- Emoji  
+- Noto-Fonts-Emoji -- Emoji  
 - Bemenu -- Clipboards and Networking  
 - Mako -- Notifications  
 - Light -- Brightness Control  
