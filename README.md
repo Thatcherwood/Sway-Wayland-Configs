@@ -10,7 +10,8 @@ Includes configurations for:
 - Sway  
 - Swaynag  
 - Waybar  
-- Wofi  
+- Wofi
+- Vim
 
 Additional Packages:  
 - Noto-Fonts -- Font  
