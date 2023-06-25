@@ -51,7 +51,7 @@ set $bemenu bemenu --prompt Clipboard --width-factor 0.9 --fn noto-font --tf $ac
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output * bg /home/sunberg/Pictures/backgrounds/Telvanni.jpg fill
+output * bg /home/<USERNAME>/Pictures/backgrounds/Telvanni.jpg fill
 
 #
 # Example configuration:
