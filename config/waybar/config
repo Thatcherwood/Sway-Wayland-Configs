@@ -1,0 +1,74 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 30,
+    "margin-left": 5,
+    "margin-right": 5,
+    "margin-botton": 5,
+    "modules-left": ["sway/workspaces"],
+    "modules-center": [],
+    "modules-right": ["tray", "network", "temperature", "cpu", "memory",
+    "battery", "backlight", "custom/volume", "clock"],
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "disable-click": false,
+        "sort-by-number": true
+    },
+    "tray": {
+        "spacing": 10,
+    },
+    "clock": {
+        "format": "{:%a %Y %b %d %R}"
+    },
+    "custom/volume": {
+        "format": "{}",
+        "exec": "wpctl get-volume @DEFAULT_AUDIO_SINK@",
+        "interval": 1,
+    },
+    "custom/America": {
+        "format": "{}",
+        "exec": "TZ=America/Chicago date \"+%H:%M %Z\"",
+        "interval": 30,
+    },
+    "cpu": {
+        "format": "📟 {usage}%",
+        "on-click": "foot htop"
+    },
+    "memory": {
+        "format": "💽 {}%"
+    },
+    "temperature": {
+        "critical-threshold": 75,
+        "format": "🌡️ {temperatureC}°C"
+    },
+    "battery": {
+        "bat": "BAT0",
+        "full-at": 95,
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-icons": ["🔋", "🔋", "🔋", "🔋", "🔋"]
+    },
+    "backlight": {
+        "format": "☀️ {}",
+        "on-scroll-up": "light -A 4",
+        "on-scroll-down": "light -U 2"
+    },
+    "network": {
+        "format-wifi": "📶 {essid}",
+        "format-disconnected": "⚠ Disconnected",
+        "on-click": "networkmanager_dmenu"
+    },
+    "wireplumber": {
+        "format": "{icon} {volume}%",
+        "format-muted": "🔇",
+        "format-icons": {
+            "headphones": "🎧",
+            "default": ["🔈", "🔊"]
+        },
+        "on-click": ""
+    },
+}

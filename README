@@ -1,0 +1,26 @@
+A Collection of Configuration Files for my Desktop Environment
+Includes configurations for:
+Foot
+Networkmanager_dmenu
+Pipewire
+Pulse
+Sway
+Swaynag
+Waybar
+Wofi
+
+Additional Packages:
+Noto-Fonts -- Font
+Noto-Fonts-Emoki -- Emoji
+Bemenu -- Clipboards and Networking
+Mako -- Notifications
+Light -- Brightness Control
+Imv -- CLI Image Viewer
+Grim/Grimshot -- Screenshots
+Swayidle -- Sway Lockscreen
+Swaylock-effects -- Lock Screen Effects
+I3Keys -- Show Keybindings in a GUI
+Swaybg
+Wayland
++ some more as seen in the packages file
+
