@@ -25,4 +25,4 @@ Additional Packages:
 - I3Keys -- Show Keybindings in a GUI  
 - Swaybg  
 - Wayland  
-- + some more as seen in the packages file  
+- See more installed packages in the packages file.
