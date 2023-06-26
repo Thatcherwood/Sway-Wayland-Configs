@@ -27,3 +27,8 @@ Additional Packages:
 - Swaybg  
 - Wayland  
 - See more installed packages in the packages file.
+
+![image info](./Images/Neofetch.png)
+![image info](./Images/Htop.png)
+![image info](./Images/Firefox.png)
+![image info](./Images/Desktop.png)
