@@ -1,7 +1,7 @@
 # Sway-Wayland-Configs
 A Collection of Configuration Files for my Desktop Environment.  
 Basically everything wayland/wireplumber, with heavy performance considerations.  
-My system uses under 400Mb RAM with nothing open.  
+My system uses under 300M RAM with nothing open.  
 Includes configurations for:  
 - Foot  
 - Networkmanager_dmenu  
