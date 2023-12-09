@@ -1,4 +1,8 @@
 # Sway-Wayland-Configs
+
+This Repo has been archived, as I no longer suffer from a weak machine.
+The configurations may work for awhile into the (At time of writing) future, but verification may be needed. 
+
 A Collection of Configuration Files for my Desktop Environment.  
 Basically everything wayland/wireplumber, with heavy performance considerations.  
 My system uses under 300M RAM with nothing open.  
